@@ -91,7 +91,7 @@ st.markdown("""
         <span style="font-family: monospace; font-size: 12px; color: #b9ccaf;">MIMIC-III Dataset • XGBoost • TreeSHAP • LIME</span>
     </div>
     <h1 style="font-family: monospace; font-size: 26px; color: #ffffff; margin: 0 0 8px 0;">
-        🩺 XAI ICU Deterioration Monitor & Interactive Telemetry Engine
+        🩺 XAI for Patient Safety and Risk Analysis
     </h1>
     <p style="color: #b9ccaf; font-size: 14px; margin: 0;">
         Explainable AI decision support system trained on MIMIC-III Critical Care Benchmark data with real-time SHAP feature attributions.
