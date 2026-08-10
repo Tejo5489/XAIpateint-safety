@@ -16,7 +16,7 @@ except ImportError:
 
 # Streamlit Page Config
 st.set_page_config(
-    page_title="XAI ICU Risk Monitor (MIMIC-III Dataset)",
+    page_title="XAI for Patient Safety and Risk Analysis",
     page_icon="🩺",
     layout="wide",
     initial_sidebar_state="expanded"
