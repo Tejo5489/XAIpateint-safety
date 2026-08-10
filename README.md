@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🏥 Explainable AI (XAI) Patient Safety & Clinical Decision Support System
 
-# Run and deploy your AI Studio app
+An end-to-end web application built for real-time patient risk monitoring, explainable machine learning predictions (SHAP), and an interactive nurse-assistant clinical chatbot. Developed as a final-year project.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/82dd2727-9fa3-40c9-b9eb-5a8340066fa9
+## 🚀 Features
+* **Real-Time Telemetry Tracking:** Monitor patient vitals including Heart Rate, Blood Oxygen ($\text{SpO}_2$), Systolic Blood Pressure, and Temperature.
+* **Predictive Risk Assessment:** Utilizes a scikit-learn Random Forest classifier to instantly flag critical health risks.
+* **Explainable AI (XAI):** Integrated SHAP (SHapley Additive exPlanations) values to break down and visualize *why* the model flagged a patient.
+* **Nurse-Assistant Chatbot:** An interactive natural language layer that translates complex clinical metrics and risk scores into actionable insights for medical staff.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
+* **Frontend & UI:** Streamlit
+* **Backend & Inference:** FastAPI, Python
+* **Machine Learning & XAI:** Scikit-Learn, SHAP, NumPy, Pandas
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📂 Project Structure
+```text
+xai-patient-safety/
+│
+├── main.py            # FastAPI backend (Model, SHAP engine, and Chatbot logic)
+├── app.py             # Streamlit interactive user interface
+└── requirements.txt   # Project dependencies
