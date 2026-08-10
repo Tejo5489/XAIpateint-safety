@@ -241,7 +241,7 @@ with tab1:
     
     if st.button("Get XAI Explanation"):
         if HAS_GENAI_LIB and gemini_key:
-            with st.spinner("Consulting Gemini 3.6 Flash XAI Reasoning Engine..."):
+            with st.spinner("Assessing the request"):
                 try:
                     client = genai.Client(api_key=gemini_key)
                     prompt = f"""
